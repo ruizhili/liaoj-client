@@ -1,6 +1,6 @@
 server:
   port: 8084  # ${PORT:8080}
-profile: profile_new2
+profile: profile_new
 logging:
   level:
     ROOT: INFO
