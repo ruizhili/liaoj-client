@@ -1,21 +1,20 @@
 server:
-  port: 8084  # ${PORT:8080}
+  port: 8084
 profile: profile
 logging:
   level:
     ROOT: INFO
     org.springframework.web: DEBUG
-
 eureka:
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://eureka-eureka.wsk-test:8761/eureka/
+      defaultZone: dddddddd
   instance:
     preferIpAddress: true
-    instance-id: ${spring.cloud.client.ipAddress}:${server.port}
+    instance-id: '${spring.cloud.client.ipAddress}:${server.port}'
 spring:
   sleuth:
     sampler:
-      percentage: 1.0
+      percentage: 1
