@@ -10,7 +10,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: 'http://eureka-eureka.diablo-auto-asf-auto-415:8761/eureka/'
+      defaultZone: 'http://eureka-eureka.diablo-auto-asf-auto-200:8761/eureka/'
   instance:
     preferIpAddress: true
     instance-id: '${spring.cloud.client.ipAddress}:${server.port}'
