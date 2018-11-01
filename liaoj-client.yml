@@ -1,6 +1,6 @@
 server:
   port: 8084  # ${PORT:8080}
-profile: profile
+profile: test
 logging:
   level:
     ROOT: INFO
